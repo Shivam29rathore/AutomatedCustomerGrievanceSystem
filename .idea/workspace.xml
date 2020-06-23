@@ -1,57 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6de0d68-1af8-4cd4-a6f3-feb9d4077b63" name="Default Changelist" comment="">
+    <list default="true" id="d4a92408-1778-47f4-a7ee-d3d26a76bdf1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AutomatedCustomerGrievanceSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Twitter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tweets.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Tweets.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/SendMailScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/SendMailScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/mail/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/mail/MailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Twitter.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/KafkaProducerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/KafkaProducerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/SendMailScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/SendMailScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterClientConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/mail/MailConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/mail/MailConfig.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="AnnotationType" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GroovyConsoleState">
-    <option name="list">
-      <list>
-        <Entry>
-          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
-          <option name="moduleName" value="Twitter" />
-          <option name="title" value="Twitter (Bundled Groovy 2.4.17)" />
-        </Entry>
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1Ok2YE4VLA8dG91fKTkajokrW7z" />
+  <component name="ProjectId" id="1PvB5ic8fqvbO4U470cLK3iFbSB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="aws" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mailServceModule.mail" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TwitterMain">
+  <component name="RunManager" selected="Application.twitterMain">
     <configuration name="MailConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twitter.tweet.mail.MailConfig" />
       <module name="Twitter" />
@@ -65,9 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwitterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="twitterMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.twitter.tweet.TwitterMain" />
-      <module name="Twitter" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.twitter.tweet.*" />
@@ -80,7 +118,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwitterMain" />
         <item itemvalue="Application.MailConfig" />
       </list>
     </recent_temporary>
@@ -90,141 +127,66 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c6de0d68-1af8-4cd4-a6f3-feb9d4077b63" name="Default Changelist" comment="" />
-      <created>1563807649676</created>
+      <changelist id="d4a92408-1778-47f4-a7ee-d3d26a76bdf1" name="Default Changelist" comment="" />
+      <created>1566744508338</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563807649676</updated>
+      <updated>1566744508338</updated>
     </task>
-    <task id="LOCAL-00001" summary="Minor Changes 2">
-      <created>1564819482706</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1564819482706</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="range">
-                    <value>
-                      <list>
-                        <option value="HEAD..origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Minor Changes 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Changes 2" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="311" y="58" width="800" height="677" key="#Project_Structure" timestamp="1579606116346">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1579606116346" />
+    <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578922526637">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1299.741@67.27.1299.741" timestamp="1578922526637" />
+    <state x="348" y="27" width="740" height="741" key="#twitterMain" timestamp="1587227904369">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="348" y="27" width="740" height="741" key="#twitterMain/67.27.1299.741@67.27.1299.741" timestamp="1587227904369" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587227712207">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1587227712207" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1587227921509">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587227921509" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1587227921507">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1587227921507" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1587227921507">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1587227921507" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1587227921508">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1587227921508" />
+    <state x="205" y="33" key="SettingsEditor" timestamp="1587227606952">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="33" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1587227606952" />
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1579787137666">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579787137666" />
   </component>
 </project>

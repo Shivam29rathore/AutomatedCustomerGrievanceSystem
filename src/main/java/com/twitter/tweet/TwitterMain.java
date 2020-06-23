@@ -10,6 +10,7 @@ public class TwitterMain{
 	@Autowired
 	TwitterProducer TwitterProducer;
 	public static void main(String[] args) {
+
 		SpringApplication.run(TwitterMain.class, args);
 	}
 }

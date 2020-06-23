@@ -7,6 +7,7 @@ import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.AutoConfigureOrder;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -18,8 +19,8 @@ public class SendMailScheduler {
 	@Autowired
 	private JavaMailSender javaMailSender;
 
-	
-	@Scheduled(initialDelay = 1000 ,fixedDelay = 1000000)
+
+
 	void sendEmailWithAttachment() throws MessagingException, IOException {
 
 		System.out.println("Sending Email...");
@@ -28,12 +29,12 @@ public class SendMailScheduler {
 		MimeMessageHelper helper = new MimeMessageHelper(msg, true);
 		helper.setTo("shivam.29.rathore@gmail.com");
 		String l1 = "Hi there !  ";
-		String l2 = "I am Twizeer ,a TweetBot";
-		String l3 = "I am happy to help you !";
-		String l4 = "Get this data saved for your reference .";
-		String l5 = "This is a system a system generated mail.";
+		String l2 = "I am here to assist in you in your attendance !";
+		String l3 = "Your attendance is 70% today .";
+		String l4 = "You have attended 7 classes out of 10 .";
+		String l5 = "This is a system generated mail.";
 
-		helper.setSubject("Twitter Data ");
+		helper.setSubject("Attendance  Data ");
 		helper.setText(l1 + "<br>" + l2 + "<br>" + l3 + "<br>" + l4 + "<br>" + l5 + "<br>"
 
 				, true);
@@ -44,5 +45,6 @@ public class SendMailScheduler {
 		System.out.println("Send Email...");
 
 	}
+
 
 }

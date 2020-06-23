@@ -4,14 +4,22 @@ package com.twitter.tweet.mail;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.scheduling.annotation.EnableScheduling;
+
+import javax.mail.MessagingException;
+import javax.mail.internet.MimeMessage;
+import java.io.IOException;
 
 
 @SpringBootApplication
 @EnableScheduling
 public class MailConfig implements CommandLineRunner {
 
-	
+
+	private JavaMailSender javaMailSender;
+
 	public static void main(String[] args) {
 		SpringApplication.run(MailConfig.class, args);
 	}
@@ -19,13 +27,11 @@ public class MailConfig implements CommandLineRunner {
 	@Override
 	public void run(String... args) {
 
-		
 
 		try {
 
-//            sendEmail();
-			
-			//sendEmailWithAttachment();
+
+			sendEmailWithAttachment();
 
 		} catch (org.springframework.messaging.MessagingException e) {
 			e.printStackTrace();
@@ -37,16 +43,29 @@ public class MailConfig implements CommandLineRunner {
 
 	}
 
-	/*
-	 * void sendEmail() {
-	 * 
-	 * SimpleMailMessage msg = new SimpleMailMessage();
-	 * msg.setTo("shivam.29.rathore@gmail.com");
-	 * 
-	 * msg.setSubject("Tweezer");
-	 * msg.setText("Hi there kindly look at the attached file");
-	 * 
-	 * javaMailSender.send(msg);
-	 */
-	
+	void sendEmailWithAttachment() throws MessagingException, IOException {
+
+		System.out.println("Sending Email...");
+		MimeMessage msg = javaMailSender.createMimeMessage();
+
+		MimeMessageHelper helper = new MimeMessageHelper(msg, true);
+		helper.setTo("shivam.29.rathore@gmail.com");
+		String l1 = "Hi there !  ";
+		String l2 = "I am here to assist in you in your attendance !";
+		String l3 = "Your attendance is 70% today .";
+		String l4 = "You have attended 7 classes out of 10 .";
+		String l5 = "This is a system a system generated mail.";
+
+		helper.setSubject("Attendance  Data ");
+		helper.setText(l1 + "<br>" + l2 + "<br>" + l3 + "<br>" + l4 + "<br>" + l5 + "<br>"
+
+				, true);
+
+
+
+		javaMailSender.send(msg);
+		System.out.println("Send Email...");
+
+
+	}
 }

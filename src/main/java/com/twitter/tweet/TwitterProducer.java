@@ -53,9 +53,10 @@ public class TwitterProducer {
 						logger.info(msg);
 //						TwitterMetricsConvertor convertor = new TwitterMetricsConvertor();
 						kafkaTemplate.send("Twitter_tweets",msg);
-					}else
-					logger.info("NO message");
-				
+					}
+					else {
+                        logger.info("NO message");
+                    }
 			}
 		}},"kafka-thread").start();
 		}

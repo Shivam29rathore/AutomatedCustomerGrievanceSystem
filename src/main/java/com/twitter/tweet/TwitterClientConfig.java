@@ -24,6 +24,7 @@ public class TwitterClientConfig {
 
 	@Bean
 	public BlockingQueue<String> blockingQueue() {
+
 		return new LinkedBlockingQueue<String>(10000);
 	}
 
@@ -38,7 +39,7 @@ public class TwitterClientConfig {
 		Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);
 		StatusesFilterEndpoint hosebirdEndpoint = new StatusesFilterEndpoint();
 		List<Long> followings = Lists.newArrayList(1234L, 566788L);
-		List<String> terms = Lists.newArrayList( "@confluent");
+		List<String> terms = Lists.newArrayList( "modi");
 		hosebirdEndpoint.followings(followings);
 		hosebirdEndpoint.trackTerms(terms);
 
