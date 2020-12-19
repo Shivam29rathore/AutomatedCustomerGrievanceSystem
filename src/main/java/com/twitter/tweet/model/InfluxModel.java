@@ -10,14 +10,39 @@ public class InfluxModel {
 	String measurementName;
 	Map<String,String> tags;
 	Map<String,Object> fields;
-	
-	public InfluxModel(String mesurement) {
+
+	public String getMeasurementName() {
+		return measurementName;
+	}
+
+	public void setMeasurementName(String measurementName) {
+		this.measurementName = measurementName;
+	}
+
+	public Map<String, String> getTags() {
+		return tags;
+	}
+
+	public void setTags(Map<String, String> tags) {
+		this.tags = tags;
+	}
+
+	public Map<String, Object> getFields() {
+		return fields;
+	}
+
+	public void setFields(Map<String, Object> fields) {
+		this.fields = fields;
+	}
+
+	public InfluxModel(String measurement) {
 		tags = new HashMap();
 		fields = new HashMap();
-		this.measurementName = mesurement;
+		this.measurementName = measurement;
 	}
 	
 	public void addTag(String tagName,String tagVal) {
+
 		tags.put(tagName, tagVal);
 	}
 	

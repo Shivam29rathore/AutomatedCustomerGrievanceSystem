@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,33 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4a92408-1778-47f4-a7ee-d3d26a76bdf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/AutomatedCustomerGrievanceSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Twitter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutomatedCustomerGrievanceSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutomatedCustomerGrievanceSystem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tweets.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Tweets.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/KafkaProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/SendMailScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/SendMailScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/TwitterProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/mail/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/mail/MailConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Twitter.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/KafkaProducerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/KafkaProducerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/model/InfluxModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/model/InfluxModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/model/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/twitter/tweet/model/Tweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/ExcelUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/ExcelUtility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/InfluxDbApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/InfluxDbApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/KafkaConsumerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/KafkaProducerConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/SendMailScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/SendMailScheduler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterClientConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/mail/MailConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/mail/MailConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/TwitterProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/mail/MailConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/model/InfluxModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/model/InfluxModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/model/Tweet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/twitter/tweet/model/Tweet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/sentiment/SentimentAnalyzer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/sentiment/SentimentClassification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/twitter/tweet/sentiment/SentimentResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Twitter/Tweets/Twitter/TwitterApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +103,10 @@
       </method>
     </configuration>
     <configuration name="twitterMain" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-15.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.twitter.tweet.TwitterMain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twitter.tweet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="AutomatedCustomerGrievanceSystem" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,6 +117,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -146,47 +142,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="311" y="58" width="800" height="677" key="#Project_Structure" timestamp="1579606116346">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="311" y="58" width="800" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1579606116346" />
-    <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578922526637">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="399" y="124" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1299.741@67.27.1299.741" timestamp="1578922526637" />
-    <state x="348" y="27" width="740" height="741" key="#twitterMain" timestamp="1587227904369">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="348" y="27" width="740" height="741" key="#twitterMain/67.27.1299.741@67.27.1299.741" timestamp="1587227904369" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587227712207">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1587227712207" />
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1587227921509">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1587227921509" />
-    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1587227921507">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1587227921507" />
-    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1587227921507">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1587227921507" />
-    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1587227921508">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1587227921508" />
-    <state x="205" y="33" key="SettingsEditor" timestamp="1587227606952">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="205" y="33" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1587227606952" />
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1579787137666">
-      <screen x="67" y="27" width="1299" height="741" />
-    </state>
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1579787137666" />
   </component>
 </project>
